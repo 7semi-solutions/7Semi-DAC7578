@@ -1,24 +1,6 @@
 #include "7Semi_DAC7578.h"
 
 /**
- * DAC7578 Command Codes
- *
- * - Defines all device commands
- * - Each command controls a specific DAC register
- */
-
-#define CMD_WRITE_INPUT          0x00
-#define CMD_UPDATE_DAC           0x10
-#define CMD_WRITE_UPDATE_ALL     0x20
-#define CMD_WRITE_UPDATE         0x30
-#define CMD_POWERDOWN            0x40
-#define CMD_CLEAR_CODE           0x50
-#define CMD_WRITE_LDAC           0x60
-#define CMD_SOFT_RESET           0x70
-
-
-
-/**
  * DAC7578 Constructor
  *
  * - Initializes DAC address
